@@ -9,7 +9,7 @@ This site showcases my skills, projects, and background as a frontend developer.
 📌 Features
 -Responsive design for all screen sizes
 
--Clean and modern layout
+- Clean and modern layout
 
 -Sections for:
 
