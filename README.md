@@ -1,5 +1,4 @@
-# Personal-Portfolio
-🌐 Ritesh's Portfolio
+#🌐 Personal-Portfolio
 Welcome to my personal portfolio website!
 This site showcases my skills, projects, and background as a frontend developer. Built using HTML and CSS, it reflects my passion for clean design and responsive web development.
 
