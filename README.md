@@ -7,19 +7,19 @@ This site showcases my skills, projects, and background as a frontend developer.
 
 
 📌 Features
-Responsive design for all screen sizes
+-Responsive design for all screen sizes
 
-Clean and modern layout
+-Clean and modern layout
 
-Sections for:
+-Sections for:
 
-About Me
+--About Me
 
-Projects
+--Projects
 
-Skills
+--Skills
 
-Contact
+--Contact
 
 🛠️ Built With
 HTML5
