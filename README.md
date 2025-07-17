@@ -2,26 +2,18 @@
 Welcome to my personal portfolio website!
 This site showcases my skills, projects, and background as a frontend developer. Built using HTML and CSS, it reflects my passion for clean design and responsive web development.
 
-📁 Live Demo
+## 📁 Live Demo
 🔗 personal-portfolio-five-pink-79.vercel.app
 
 
-📌 Features
+## 📌 Features
 -Responsive design for all screen sizes
 
 - Clean and modern layout
 
-- Sections for:
+- Sections for: About Me, Projects, Skills, Contact
 
--- About Me
-
--- Projects
-
--- Skills
-
--- Contact
-
-🛠️ Built With
+## 🛠️ Built With
 HTML5
 
 CSS3
