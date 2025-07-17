@@ -11,15 +11,15 @@ This site showcases my skills, projects, and background as a frontend developer.
 
 - Clean and modern layout
 
--Sections for:
+- Sections for:
 
---About Me
+-- About Me
 
---Projects
+-- Projects
 
---Skills
+-- Skills
 
---Contact
+-- Contact
 
 🛠️ Built With
 HTML5
