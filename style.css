@@ -25,6 +25,10 @@ nav {
     justify-content: space-between;
     width: 100vw;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background:transparent;
+    
 }
 
 .logo img {
@@ -55,9 +59,16 @@ nav {
 }
 
 .avatar img {
+    border-radius: 1000px;
     width: 251px;
+    margin-top: 50px;
 }
-
+.circle {
+  width: 150px;       
+  height: 300px;      
+  border-radius: 50%; 
+  object-fit: cover;
+}
 .about {
     text-align: center;
 }
@@ -75,7 +86,8 @@ nav {
 
 .about-text h1>span {
     background: var(--Primary-Gradient,
-            linear-gradient(116deg, #ff8660 10.79%, #9a33ff 95.51%));
+    /* linear-gradient(116deg, #ff8660 10.79%, #9a33ff 95.51%)); */
+    linear-gradient(116deg, hsl(86, 26%, 66%) 10.79%, #32a205 95.51%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -154,9 +166,11 @@ nav {
 }
 
 .projects {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     margin: 40px 0;
+    
 }
 
 .project-item {
