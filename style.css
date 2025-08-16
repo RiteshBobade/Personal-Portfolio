@@ -372,3 +372,43 @@ footer img {
         margin-top: 50px;
     }
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .about-text h1 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .avatar img {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .experience-with-lang img {
+        width: 35px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
