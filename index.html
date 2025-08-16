@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
-
-    <link rel="shortcut icon" href="images/avatar.png" type="image/x-png">
+        <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-png">
     <title>Portfolio</title>
 </head>
 
@@ -17,16 +17,16 @@
         <nav>
             <div class="logo"><img src="images/logo-removebg-preview.png" alt="abm logo" /></div>
             <div class="navbar">
-                <div><a href="#">Home</a></div>
-                <div><a href="#">Project</a></div>
-                <div><a href="#">Experience</a></div>
-                <div><a href="#">Contact</a></div>
+                <div><a href="#home">Home</a></div>
+                <div><a href="#project">Project</a></div>
+                <div><a href="#experience">Experience</a></div>
+                <div><a href="#contact">Contact</a></div>
             </div>
         </nav>
     </header>
     <section class="container about">
         <div class="avatar">
-            <img src="images/avatar.png" alt="abm avatar" />
+            <img class="circle" src="images/profile.jpg" alt="abm avatar" />
         </div>
         <div class="about-text">
             <h1>Ritesh Bobade <br /> <span>Information Technology</span></h1>
@@ -52,16 +52,26 @@
             <div><img src="images/javascript.png" alt="js logo" /></div>
         </div>
     </section>
-    <section class="container">
+    <section class="container" id="project">
         <h2 class="primary-heading heading-project">PROJECTS</h2>
         <div class="projects">
+
             <div class="project-item">
-                <a href="https://netflix-clone-omega-three-52.vercel.app"><img src="images/netflixweb.png" alt="netflix clone" /></a>
+                <a href="https://score-tracker-m5r7.vercel.app"><img src="images/scoreTracker.png" alt="netflix clone" /></a>
                 <div class="project-title">
-                    <a href="https://netflix-clone-omega-three-52.vercel.app" target="_blank">Live Demo</a>
-                    <h3>NETFLIX CLONE</h3>
+                    <a href="https://score-tracker-m5r7.vercel.app" target="_blank">Live Demo</a>
+                    <h3>SCORE TRACKER</h3>
                 </div>
             </div>
+            
+            <div class="project-item">
+                <a href="https://todo-app-psi-topaz-28.vercel.app"><img src="images/Screenshot 2025-08-16 220312 copy.png" alt="todo list" /></a>
+                <div class="project-title">
+                    <a href="https://todo-app-psi-topaz-28.vercel.app" target="_blank">Live Demo</a>
+                    <h3>TODO LIST</h3>
+                </div>
+            </div>
+            
             <div class="project-item">
                 <a href="https://hood-ease.vercel.app"><img src="images/hoodeaseweb.png" alt="hoodease" /></a>
                 <div class="project-title">
@@ -69,13 +79,17 @@
                     <h3>HOODEASE WEB</h3>
                 </div>
             </div>
+
+
             <div class="project-item">
-                <a href="https://todo-app-psi-topaz-28.vercel.app"><img src="images/todoweb.png" alt="todo list" /></a>
+                <a href="https://netflix-clone-omega-three-52.vercel.app"><img src="images/netflixweb.png" alt="netflix clone" /></a>
                 <div class="project-title">
-                    <a href="https://todo-app-psi-topaz-28.vercel.app" target="_blank">Live Demo</a>
-                    <h3>TODO LIST</h3>
+                    <a href="https://netflix-clone-omega-three-52.vercel.app" target="_blank">Live Demo</a>
+                    <h3>NETFLIX CLONE</h3>
                 </div>
             </div>
+            
+            
 
         </div>
     </section>
@@ -129,7 +143,7 @@
       </div>
     </section> -->
     <footer>
-        <div class="container">
+        <div class="container" id="contact">
             <h2>Contact me</h2>
             <p>
                 +91 8010029942
@@ -145,6 +159,6 @@
             </div>
         
     </footer>
-    
-
+    <script src="script.js"></script>
+</body>
 </html>
